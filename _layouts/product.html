@@ -29,4 +29,16 @@ layout: default
       </div>
     </div>
   </div>
+  <script>
+window.dataLayer = window.dataLayer || [];
+window.dataLayer.push({
+ 'event': 'product_page_viewed',
+ 'user_id': '$user_id',
+ 'user_type': '$user_type',
+ 'page_URL': '$page_URL',
+ 'product_name': '$product_name',
+ 'product_id': '$product_id',
+ 'product_price': '$product_price',
+ });
+</script>
 </div>
